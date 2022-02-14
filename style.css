@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(IMAGES/final.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;  
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 16px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    color: #fff;
+    width: 100%;
+}
+
+/*---- profile ----*/
+
+ .profile{
+    min-height: 50vh;
+    width: 1000%;
+    background-image: url(IMAGES/ewan.png);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+}
+
+.profile{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+   
+
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:#ECCA4A; 
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 500;
+    color:#DDCAF2;  
+    line-height: 30px;
+}
+h3{
+    font-size: 45px;
+    font-weight: 500;
+    color:#DDCAF2;  
+    line-height: 30px;
+}
+p2{
+    margin-top: 10%;
+     font-size: 13px;
+    font-weight: 290;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+p3 {
+    margin-top: 10%;
+  font-size: 13px;
+    font-weight: 290;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+     color: #FFFFFF;
+}
+h4{
+    font-size: 45px;
+    font-weight: 500;
+    color:#DDCAF2;  
+    line-height: 30px;
+}
+p4 {
+    margin-top: 10%;
+  font-size: 13px;
+    font-weight: 290;
+    line-height: 30px;s
+    padding: 10px;  
+    text-align: center;
+     color: #FFFFFF;
+}
+
+.row{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-col{
+    flex-basis: 31%;
+    background: #A175F8;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.profile-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+}
+
+/*---- skills ----*/
+h11{
+    font-size: 50px;
+    font-weight: 600;
+    color:#ECCA4A; 
+    text-align: center;
+    margin-left: 42%;
+    }
+
+.skills{
+min-height: 100vh;
+ width: 100%;
+ background-image: url(IMAGES/skills.png);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+
+/*---- services ----*/
+
+
+.services h9{
+  color: #ECCA4A;
+  text-align: left;
+  margin-top: 50%;
+  margin-left: 3.5%;
+  font-size: 50px;
+  font-weight: 290;
+  line-height: 30px;
+  padding: 10px;  
+}
+
+.services{
+    margin-top: 0%;
+ min-height: 100vh;
+ width: 100%;
+ background-image: url(IMAGES/services.png);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+   
+ 
+/*---- social-media section ----*/
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media 
+{
+    font-size:36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+a {
+        margin-top: 10%;
+  font-size: 20px;
+    font-weight: 290;
+    line-height: 30px;
+    padding: 10px;  
+    text-align: center;
+     color: #ECCA4A;
+}
